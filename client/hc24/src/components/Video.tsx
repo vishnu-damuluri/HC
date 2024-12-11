@@ -1,4 +1,3 @@
-import React from 'react'
 import headerVideo from '../assets/mainvdo.mp4'
 
 export default function Video() {

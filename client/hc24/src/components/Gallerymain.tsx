@@ -1,4 +1,3 @@
-import React from 'react'
 import yourImage from '../assets/Screenshot 2024-11-30 154215.png';  // Adjust the path as needed
 
 export default function Gallerymain() {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Masonry from 'react-masonry-css';
 import './Gallery.css'; // Import your CSS file for any global styling
 import img1 from '../assets/Screenshot 2024-11-30 175916.png';
@@ -34,7 +34,12 @@ export default function Gallery() {
   );
 }
 
-function ImageItem({ src, text }) {
+type ImageType = {
+  src: string,
+  text: string,
+}
+
+function ImageItem({ src, text }: ImageType) {
   const [hovered, setHovered] = useState(false);
 
   return (

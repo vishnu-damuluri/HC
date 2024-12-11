@@ -1,4 +1,3 @@
-import React from 'react';
 import img1 from '../assets/gitamCapN.png';
 import img2 from '../assets/gitamShirtN.png';
 import img3 from '../assets/gitamBookN.png';

@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import bharatImage from "../assets/Screenshot 2024-12-01 115259.png";
-import bharatBackground from "../assets/Screenshot 2024-12-01 140019.png";
 import classroom from "../assets/Screenshot 2024-12-01 120618.png";
 import alumni from "../assets/Screenshot 2024-12-01 120827.png";
 import friendsInCarnival from "../assets/Screenshot 2024-12-01 120955.png";

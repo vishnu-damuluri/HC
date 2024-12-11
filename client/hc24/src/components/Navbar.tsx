@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 // Import the image
 import LogoImage from '../assets/HClogoN.png';
 

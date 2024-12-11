@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import gitamLogoWhiteN from '../assets/gitamLogoWhiteN.png';
-import mainImage from '../assets/Screenshot 2024-11-30 154215.png';
 
 // Function to calculate time left until the target date
 const calculateTimeLeft = () => {
