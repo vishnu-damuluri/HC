@@ -20,7 +20,7 @@ export default function Merch() {
         ].map((item, index) => (
           <div
             key={index}
-            className="group w-auto h-auto sm:w-auto sm:h-auto bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-md transition-all duration-300 hover:bg-red-500"
+            className="group w-auto h-auto sm:w-auto sm:h-auto bg-white rounded-lg flex items-center justify-center overflow-hidden transition-all duration-300 hover:bg-red-500"
           >
             <img
               src={item.src}
@@ -41,8 +41,8 @@ export default function Merch() {
           From hoodies to stationery and everything in between, our merchandise lets you carry a
           piece of Gitam wherever you go. Wear it, use it, and keep the memories close!
         </p>
-        <button className="bg-emerald-600 text-white px-6 py-2 rounded-full text-2xl font-semibold hover:bg-emerald-700 transition duration-300">
-          Shop Now
+        <button className="bg-emerald-600 text-white flex justify-center items-center p-3 rounded-full text-2xl font-semibold hover:bg-emerald-700 transition duration-300">
+         <a href='https://shop.gitam.edu/' target='_blank' className='mb-1' >Shop Now</a> 
         </button>
       </div>
     </div>
